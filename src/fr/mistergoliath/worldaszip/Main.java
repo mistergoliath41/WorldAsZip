@@ -37,8 +37,9 @@ public class Main extends JavaPlugin {
         if (time == 0) {
         	this.coloredLogger.info("§cThe \"backup.time\" value must be greater than 0 in the \"config.yml\" file.");
         	this.disable();
+        	return;
         }
-        this.backupTimer = new BackupTimer(this, time == 0 ? this.disable() : time).start();
+        this.backupTimer = new BackupTimer(this, time).start();
     }
 
     private int disable() {
