@@ -1,0 +1,6 @@
+backup:
+  time: 3600 #Time in seconds
+  worlds:
+    - world
+    - world_nether
+    - world_the_end

@@ -1,12 +1,8 @@
 name: WorldAsZip
-version: 1.0.1
-description: Plugin to zip your world.
-authors: [tr808axm]
-main: de.tr808axm.worldaszip.Main
-website: https://github.com/tr808axm
-prefix: WorldAsZip
+author: mistergoliath, tr808axm
+version: 1.0
+main: fr.mistergoliath.worldaszip.Main
 commands:
   worldaszip:
-    description: Zip the world you are currently in.
-    usage: /worldaszip
+    description: Main command.
     aliases: [waz]
