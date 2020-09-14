@@ -1,7 +1,11 @@
 # WorldAsZip
 This is a WorldAsZip fork.
 <br>
-Spigot plugin: Zip your world !
+WorldAsZip is a Spigot plugin which allow you to backup your world(s) as a ZIP file !
+<br>
+The original author is: [tr808axm](https://github.com/tr808axm)
+<br>
+The original plugin is at: [https://github.com/tr808axm/WorldAsZip](https://github.com/tr808axm/WorldAsZip)
 
 With this plugin, you can create a zip-file from the world you are currently in.
 
