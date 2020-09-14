@@ -10,7 +10,7 @@ The original plugin is at: [https://github.com/tr808axm/WorldAsZip](https://gith
 With this plugin, you can create a zip-file from the world you are currently in.
 
 ## Downloads
-Downloads are available at [(Soon...)](https://spigotmc.org). (Just hit the `Download` button.)
+Downloads are available at [Release](https://www.spigotmc.org/resources/worldaszip-reloaded.83880). (Just hit the `Download` button.)
 
 ## How to use
 Go into the world you want to save as a player and make sure you are opped or you have the `worldaszip.use` permission.
