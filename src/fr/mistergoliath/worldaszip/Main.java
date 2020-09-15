@@ -42,16 +42,15 @@ public class Main extends JavaPlugin {
         this.backupTimer = new BackupTimer(this, time).start();
     }
 
-    private int disable() {
-    	backupTimer.stop();
-		Bukkit.getPluginManager().disablePlugin(this);
-		return 0;
-	}
-
 	@Override
     public void onDisable() {
     	backupTimer.stop();
     }
+
+    private void disable() {
+    	backupTimer.stop();
+		Bukkit.getPluginManager().disablePlugin(this);
+	}
 
     private void registerCommands() {
         getCommand("worldaszip").setExecutor(new WorldAsZip(this));
